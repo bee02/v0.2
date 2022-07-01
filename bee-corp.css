@@ -1,0 +1,359 @@
+body{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+ width: 100%;
+}
+#container{
+ width: 100%;
+ max-width: 1000px;
+}
+
+
+
+
+#music-container{
+   width: 100%;
+   max-width: 800px;
+   margin: 0 auto;
+   
+  }
+  #wrape{
+   max-width: 600px;
+   margin: 0 auto;
+   border: 0px solid black;
+   background: #F1F3F4;
+   padding: 10;
+  }#wrape img{
+   width: 50%;
+   margin: 5;
+   padding: 5;
+   display: none;
+  }
+  #wrape h4{
+   text-align: center;
+   color: gray;
+   display: none;
+  }#wrape p{
+   font-size: 10;
+   max-width: 200px;
+   margin: 0 auto;
+   display: none;
+  }#wrape p em{
+  
+  }#wrape #show-song{
+   max-width: 300px;
+   margin: 0 auto;
+   
+  }#wrape #show-song h5{
+   text-align: right;
+   color: gray;
+   font-size: 10;
+   text-transform: uppercase;
+  }#wrape #show-song #song{
+   width: 100%;
+   background: #F1F3F4;
+  }#wrape #show-song #song audio{
+   width: 100%;
+   outline: none;
+   
+  }#wrape #show-song #song a{
+  
+  }#wrape #show-song #song button{
+    background: none;
+    border: 0px;
+    outline: ;
+    margin: 20;
+    padding: 20;
+  }#wrape #show-song #song button svg{
+   font-size: 30px;
+  }
+
+
+
+
+
+
+
+
+
+/*NAV CONTAINER start*/
+ .nav-cont{
+  /*background: linear-gradient(to right, #24C6DC, #514A9D);*/
+  background: #364F6B;
+  height: 50px;
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+ }
+ 
+ .menu-cont{
+  position: absolute;
+  top: 5;
+  right: 10;
+ }.menu-cont #menu-bar{
+   padding: 0;
+   margin: 0;
+   background: none;
+   border: 0px solid black;
+   outline: none;
+ }.menu-cont #menu-bar svg{
+  font-size: 35px;
+ }
+ 
+ .menu-cont #cancel-bar{
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: 0 solid black;
+  outline: none;
+  display: none;
+ }.menu-cont #cancel-bar svg{
+  font-size: 35px;
+ }
+ 
+ .nav-cont #notification-bar{
+  position: absolute;
+  top: 5;
+  left: 10;
+  background: none;
+  border: 0px solid black;
+ }#notification-bar-cancel{
+  position: absolute;
+  top: 5;
+  left: 10;
+  background: none;
+  border: 0px solid black;
+  display: none;
+ }.nav-cont #notification-bar svg{
+  font-size: 35px;
+ }.nav-cont #notification-bar-cancel svg{
+  font-size: 35px;
+ }
+ 
+#menu-navigator{
+ background: #364F6B;
+ padding: 20px;
+ position: absolute;
+ top: 0;
+ right: 0;
+ border: px solid black;
+ display: none;
+}#menu-navigator svg{
+ font-size: 20px;
+}
+
+#notification-center{
+ background: #364F6B;
+ padding: 10px;
+ position: statick;
+ top: 0;
+ left: 0;
+ border: 0px solid black;
+ width: ;
+ height: 350px;
+ border-bottom-right-radius: px;
+ display: none;
+}#notification-center h4{
+ color: white;
+ text-align: center;
+ text-transform: ;
+ margin-top: 0;
+ border-bottom: 1px solid white;
+}#notification-center a{
+ text-decoration: none;
+ text-transform: uppercase;
+}#notification-center button{
+ width: 100%;
+ margin-bottom: 10px;
+ height: 50px;
+ position: relative;
+ border-radius: 10px;
+ border: 0.1px solid white;
+ outline: none;
+ background: none;
+ curser: pointer;
+}#notification-center button:active{
+ background: #6cf;
+}#notification-center em{
+ font-size: 15px;
+ text-align: right;
+ color: white
+}#notification-center svg{
+ font-size: 40px;
+ position: absolute;
+ top: 5;
+ left: 10;
+}
+/*NAV CONTAINER end*/
+
+
+/*Head start*/
+ .head{
+  background: #364F6B;
+  height: 400px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+ }.head #logo{
+  position: ;
+  width: ;
+ }.head #logo svg{
+  font-size: 200px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: ;
+  
+  animation: logo 10s linear infinite;
+  -webkit-animation: logo 10s linear infinite;
+ }
+ @-webkit-keyframes logo{
+  0%{-webkit-transform: rotate(0deg);}
+  100%{-webkit-transform: rotate(360deg);}
+ }
+ 
+ @keyframes logo{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+ }
+ 
+.title{
+ text-align: center;
+}.title h1{
+ color: white;
+ font-size: ;
+ margin: ;
+ padding: 0;
+}.title span{
+ margin: 0;
+ padding: 0;
+}
+/*Head end*/
+
+/*Main start*/
+main{
+ width: 100%;
+ max-width: 1000px;
+ margin: 0 auto;
+ background: ;
+ height: ;/**/
+ display: ;
+}
+
+main #top-nav{
+ background: #364F6B;
+ border: 0px solid none;
+ display: flex;
+ justify-content: space-around;
+ padding: 15px;
+ position: sticky;
+ top: none;
+ max-width: 1000px;
+ border-radius: 0px;
+ margin: 0 auto;
+}main #top-nav div{
+
+}main #top-nav div svg{
+ font-size: 25px;
+}
+/*Main end*/
+
+
+
+
+
+
+/*footer*/
+ #footer{
+ background: #263238;
+ height: 650px;
+ position: relative;
+ max-width: 1000px;
+ margin: 0 auto;
+ padding-top: 5;
+ }#footer #details{
+ margin: 10;
+ padding: 10;
+ }#footer #foot-icon{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ margin: 0;
+ padding: 0;
+ }#footer #foot-icon svg{
+ font-size: 250px;
+ margin: 0;
+ padding: 0;
+ }#footer #details a{
+ color: white;
+ font-size: 30px;
+ text-decoration: none;
+ }#footer #details a button{
+ background: none;
+ width: 32%;
+ display: flex;
+ justify-content: left;
+ margin-left: 0;
+ margin-top: ;
+ color: white;
+ border: 0px solid white;
+ border-top: 0px;
+ border-left: 0px;
+ border-right: 0px;
+ outline: none;
+ }
+ 
+ /*input foot*/
+ #input-foot{
+ position: absolute;
+ top: 100;
+ right: 0;
+ width: 200px;
+ padding: 0;
+ margin: 0;
+ border: 0px solid black;
+ }#input-foot form{
+ padding: 0;
+ margin: 0;
+ width: 100%;
+ }#input-foot input{
+ width: 90%;
+ padding: 0;
+ margin: 0;
+ outline: none;
+ background: none;
+ border-top: ;
+ border-left: ;
+ border-right: ;
+ border: 1px solid white;
+ border-radius: 10px;
+ height: 40px;
+ color: white
+ }#input-foot textarea{
+ width: 90%;
+ height: 60px;
+ border-radius: 10px;
+ border: 1px solid white;
+ background: none;
+ color: white;
+ outline: none;
+ }#input-foot button{
+ width: 35%;
+ height: 40px;
+ color: white;
+ margin-top: 10;
+ background: none;
+ border-radius: 5px;
+ border: 1px solid white;
+ outline: none;
+ float: ;
+ curser: pointer;
+ }#input-foot button:active{
+ background: white;
+ color: black;
+ }#input-foot button:hover{
+ width: 50%;
+ }
