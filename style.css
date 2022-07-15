@@ -380,16 +380,22 @@ main #top-nav{
  overflow: auto;
  padding: 5;
  margin: 5;
+ border: 1px solid gray;
+ border-radius: 20px;
  }#display #one{
  width: 250px;
  margin: 5;
  padding: 5;
  border-radius: ;
+ border: 0px solid gray;
  }#display #one img{
  width: 250px;
+ height: 250px;
  margin-bottom: 5;
  padding: ;
- border-radius: 20px;
+ border-radius: 0px;
+ border-radius: 10px;
+ border: 1px solid gray;
  }#display #one input{
  width: 100%;
  border-radius: 10px;
